@@ -1,0 +1,174 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
+body#gan {
+  margin: 0;
+  padding: 0;
+  font-family: 'inter';
+  font-size: 16px;
+  color: #151313;
+}
+
+.gan-text-headline {
+  font-size: 60px;
+}
+
+.gan-text-headline.bold {
+  font-weight: bold;
+}
+
+.gan-text-title {
+  font-size: 24px;
+}
+
+.gan-text-title.bold {
+  font-weight: bold;
+}
+
+.gan-text-subtitle {
+  font-size: 18px;
+}
+
+.gan-text-subtitle.bold {
+  font-weight: bold;
+}
+
+.gan-text-paragraph {
+  font-size: 16px;
+}
+
+.gan-text-paragraph.bold {
+  font-weight: bold;
+}
+
+.gan-text-aditional {
+  font-size: 12px;
+}
+
+.gan-text-aditional.bold {
+  font-weight: bold;
+}
+
+.gan-text-small {
+  font-size: 12px;
+}
+
+.gan-text-small.bold {
+  font-weight: bold;
+}
+
+.gan-text-red {
+  color: #8d191c;
+}
+
+.gan-text-yellow {
+  color: #F5AF5D;
+}
+
+.gan-text-disable {
+  color: #dcdcdc;
+}
+
+.gan-link-red {
+  color: #8d191c;
+}
+
+.gan-link-red:hover {
+  color: #711416;
+}
+
+.gan-link-yellow {
+  color: #F5AF5D;
+}
+
+.gan-link-yellow:hover {
+  color: #ce8f47;
+}
+
+.gan-bg-red {
+  background-color: #8d191c;
+}
+
+.gan-bg-yellow {
+  background-color: #F5AF5D;
+}
+
+.gan-btn-red {
+  background-color: #8d191c;
+  color: #fff;
+}
+
+.gan-btn-red:hover {
+  background-color: #711416;
+}
+
+.gan-btn {
+  font-family: 'inter';
+  font-size: 16px;
+  padding: 0.5em 2em;
+  border: none;
+  border-radius: 0.25em;
+}
+
+.gan-btn-yellow {
+  background-color: #F5AF5D;
+  color: #fff;
+}
+
+.gan-btn-yellow:hover {
+  background-color: #ce8f47;
+}
+
+.gan-btn-reverse-red {
+  background-color: #f9f9f9;
+  color: #8d191c;
+}
+
+.gan-btn-reverse-red:hover {
+  background-color: #c7c7c7;
+  color: #711416;
+}
+
+.gan-btn-reverse-yellow {
+  background-color: #f9f9f9;
+  color: #F5AF5D;
+}
+
+.gan-btn-reverse-yellow:hover {
+  background-color: #c7c7c7;
+  color: #ce8f47;
+}
+
+.gan-btn-outline-red {
+  background-color: #f9f9f9;
+  color: #151313;
+  border: 1px solid #8d191c;
+}
+
+.gan-btn-outline-red:hover {
+  background-color: #8d191c;
+  color: #fff;
+  border: 1px solid #711416;
+}
+
+.gan-btn-outline-yellow {
+  background-color: #f9f9f9;
+  color: #151313;
+  border: 1px solid #F5AF5D;
+}
+
+.gan-btn-outline-yellow:hover {
+  background-color: #F5AF5D;
+  color: #fff;
+  border: 1px solid #ce8f47;
+}
+
+.rounded-sm {
+  border-radius: 4px;
+}
+
+.rounded-md {
+  border-radius: 8px;
+}
+
+.rounded-xl {
+  border-radius: 16px;
+}

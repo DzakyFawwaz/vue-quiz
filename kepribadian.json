@@ -1,0 +1,354 @@
+[
+  {
+    "id": 1,
+    "title": "Question Name",
+    "question": "You regularly make new friends.",
+    "answer": [
+      {
+        "answer_id": 0,
+        "title": "Netral"
+      },
+      {
+        "answer_id": 1,
+        "title": "Tidak Sesuai"
+      },
+      {
+        "answer_id": 2,
+        "title": "Kurang Sesuai"
+      },
+      {
+        "answer_id": 3,
+        "title": "Sesuai"
+      },
+      {
+        "answer_id": 4,
+        "title": "Sangat Sesuai"
+      }
+    ],
+
+    "pivot": {
+      "exam_id": 1,
+      "question_id": 1
+    }
+  },
+  {
+    "id": 2,
+    "title": "Question Name",
+    "question": "You spend a lot of your free time exploring various random topics that pique your interest.",
+    "answer": [
+      {
+        "answer_id": 0,
+        "title": "Netral"
+      },
+      {
+        "answer_id": 1,
+        "title": "Tidak Sesuai"
+      },
+      {
+        "answer_id": 2,
+        "title": "Kurang Sesuai"
+      },
+      {
+        "answer_id": 3,
+        "title": "Sesuai"
+      },
+      {
+        "answer_id": 4,
+        "title": "Sangat Sesuai"
+      }
+    ],
+
+    "pivot": {
+      "exam_id": 1,
+      "question_id": 1
+    }
+  },
+  {
+    "id": 3,
+    "title": "Question Name",
+    "question": "Seeing other people cry can easily make you feel like you want to cry too.",
+    "answer": [
+      {
+        "answer_id": 0,
+        "title": "Netral"
+      },
+      {
+        "answer_id": 1,
+        "title": "Tidak Sesuai"
+      },
+      {
+        "answer_id": 2,
+        "title": "Kurang Sesuai"
+      },
+      {
+        "answer_id": 3,
+        "title": "Sesuai"
+      },
+      {
+        "answer_id": 4,
+        "title": "Sangat Sesuai"
+      }
+    ],
+
+    "pivot": {
+      "exam_id": 1,
+      "question_id": 1
+    }
+  },
+  {
+    "id": 4,
+    "title": "Question Name",
+    "question": "You often make a backup plan for a backup plan.",
+    "answer": [
+      {
+        "answer_id": 0,
+        "title": "Netral"
+      },
+      {
+        "answer_id": 1,
+        "title": "Tidak Sesuai"
+      },
+      {
+        "answer_id": 2,
+        "title": "Kurang Sesuai"
+      },
+      {
+        "answer_id": 3,
+        "title": "Sesuai"
+      },
+      {
+        "answer_id": 4,
+        "title": "Sangat Sesuai"
+      }
+    ],
+
+    "pivot": {
+      "exam_id": 1,
+      "question_id": 1
+    }
+  },
+  {
+    "id": 5,
+    "title": "Question Name",
+    "question": "You usually prefer just doing what you feel like at any given moment instead of planning a particular daily routine.",
+    "answer": [
+      {
+        "answer_id": 0,
+        "title": "Netral"
+      },
+      {
+        "answer_id": 1,
+        "title": "Tidak Sesuai"
+      },
+      {
+        "answer_id": 2,
+        "title": "Kurang Sesuai"
+      },
+      {
+        "answer_id": 3,
+        "title": "Sesuai"
+      },
+      {
+        "answer_id": 4,
+        "title": "Sangat Sesuai"
+      }
+    ],
+
+    "pivot": {
+      "exam_id": 1,
+      "question_id": 1
+    }
+  },
+  {
+    "id": 6,
+    "title": "Question Name",
+    "question": "You rarely worry about whether you make a good impression on people you",
+    "answer": [
+      {
+        "answer_id": 0,
+        "title": "Netral"
+      },
+      {
+        "answer_id": 1,
+        "title": "Tidak Sesuai"
+      },
+      {
+        "answer_id": 2,
+        "title": "Kurang Sesuai"
+      },
+      {
+        "answer_id": 3,
+        "title": "Sesuai"
+      },
+      {
+        "answer_id": 4,
+        "title": "Sangat Sesuai"
+      }
+    ],
+
+    "pivot": {
+      "exam_id": 1,
+      "question_id": 1
+    }
+  },
+  {
+    "id": 7,
+    "title": "Question Name",
+    "question": "You enjoy participating in group activities.",
+    "answer": [
+      {
+        "answer_id": 0,
+        "title": "Netral"
+      },
+      {
+        "answer_id": 1,
+        "title": "Tidak Sesuai"
+      },
+      {
+        "answer_id": 2,
+        "title": "Kurang Sesuai"
+      },
+      {
+        "answer_id": 3,
+        "title": "Sesuai"
+      },
+      {
+        "answer_id": 4,
+        "title": "Sangat Sesuai"
+      }
+    ],
+
+    "pivot": {
+      "exam_id": 1,
+      "question_id": 1
+    }
+  },
+  {
+    "id": 8,
+    "title": "Question Name",
+    "question": "You like books and movies that make you come up with your own interpretation of the ending.",
+    "answer": [
+      {
+        "answer_id": 0,
+        "title": "Netral"
+      },
+      {
+        "answer_id": 1,
+        "title": "Tidak Sesuai"
+      },
+      {
+        "answer_id": 2,
+        "title": "Kurang Sesuai"
+      },
+      {
+        "answer_id": 3,
+        "title": "Sesuai"
+      },
+      {
+        "answer_id": 4,
+        "title": "Sangat Sesuai"
+      }
+    ],
+
+    "pivot": {
+      "exam_id": 1,
+      "question_id": 1
+    }
+  },
+  {
+    "id": 9,
+    "title": "Question Name",
+    "question": "Your happiness comes more from helping others accomplish things than your own accomplishments.",
+    "answer": [
+      {
+        "answer_id": 0,
+        "title": "Netral"
+      },
+      {
+        "answer_id": 1,
+        "title": "Tidak Sesuai"
+      },
+      {
+        "answer_id": 2,
+        "title": "Kurang Sesuai"
+      },
+      {
+        "answer_id": 3,
+        "title": "Sesuai"
+      },
+      {
+        "answer_id": 4,
+        "title": "Sangat Sesuai"
+      }
+    ],
+
+    "pivot": {
+      "exam_id": 1,
+      "question_id": 1
+    }
+  },
+  {
+    "id": 10,
+    "title": "Question Name",
+    "question": "You are more inclined to follow your head than your heart.",
+    "answer": [
+      {
+        "answer_id": 0,
+        "title": "Netral"
+      },
+      {
+        "answer_id": 1,
+        "title": "Tidak Sesuai"
+      },
+      {
+        "answer_id": 2,
+        "title": "Kurang Sesuai"
+      },
+      {
+        "answer_id": 3,
+        "title": "Sesuai"
+      },
+      {
+        "answer_id": 4,
+        "title": "Sangat Sesuai"
+      }
+    ],
+
+    "pivot": {
+      "exam_id": 1,
+      "question_id": 1
+    }
+  },
+  {
+    "id": 11,
+    "title": "Question Name",
+    "question": "You are interested in so many things that you find it difficult to choose what to try next.",
+    "answer": [
+      {
+        "answer_id": 0,
+        "title": "Netral"
+      },
+      {
+        "answer_id": 1,
+        "title": "Tidak Sesuai"
+      },
+      {
+        "answer_id": 2,
+        "title": "Kurang Sesuai"
+      },
+      {
+        "answer_id": 3,
+        "title": "Sesuai"
+      },
+      {
+        "answer_id": 4,
+        "title": "Sangat Sesuai"
+      }
+    ],
+
+    "pivot": {
+      "exam_id": 1,
+      "question_id": 1
+    }
+  }
+]

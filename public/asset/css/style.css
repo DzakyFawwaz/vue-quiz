@@ -1,0 +1,2514 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800&display=swap");
+
+* {
+  font-family: "Inter", sans-serif;
+}
+
+body {
+  background-color: #f9f9f9;
+}
+
+.list-items > a {
+  text-decoration: none;
+  color: #bbbbbb;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.list-items > a:hover {
+  color: #8d191c;
+}
+
+a:active {
+  color: #8d191c;
+}
+
+input[type="checkbox"] {
+  width: 18px;
+  height: 18px;
+}
+
+.list-items-logout > a {
+  text-decoration: none;
+  color: #bbbbbb;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+@media only screen and (max-width: 600px) {
+}
+
+#navbar {
+  height: 80px;
+  overflow: hidden;
+  padding: 12px 0 0 190px;
+}
+
+.underliness {
+  color: black !important;
+  text-decoration: none;
+}
+
+.underline {
+  text-decoration: none;
+}
+
+#figureTop {
+  height: 650px;
+  overflow: hidden;
+  position: absolute;
+  top: 200px;
+  left: 50%;
+  z-index: -1;
+}
+
+#elip {
+  width: 1202px;
+  height: 1202px;
+  top: 188px;
+  left: 30%;
+  z-index: -1;
+  overflow: none;
+  border-radius: 50%;
+  background-color: #f4e8e8;
+}
+
+#orangId {
+  width: 655px;
+  height: 658px;
+  right: 85px;
+  top: 152px;
+}
+
+#sectionLanding {
+  padding: 230px 0;
+}
+
+#textTurboTron {
+  text-align: left;
+}
+
+#textAboutUs {
+  text-align: left;
+}
+
+#displayAboutUs {
+  font-size: 60px;
+  line-height: 72px;
+}
+
+#gmap_canvas {
+  border-radius: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+  #sectionLanding {
+    padding: 120px 0;
+  }
+
+  #display {
+    font-size: 32px !important;
+    line-height: 36px !important;
+  }
+
+  #textTurboTron {
+    text-align: center;
+  }
+
+  #textAboutUs {
+    text-align: center;
+  }
+
+  #displayAboutUs {
+    font-size: 36px !important;
+    line-height: 40px !important;
+    padding-top: 24px;
+  }
+
+  #iconGan {
+    width: 42px;
+  }
+
+  #iconGan1 {
+    width: 55px;
+  }
+
+  #footerId {
+    padding: 10px 10px 10px 10px;
+  }
+
+  #gmap_canvas {
+    border-radius: 20px;
+    width: 350px;
+    height: 200px;
+    margin-left: 70px;
+  }
+}
+
+#idDashboardOne {
+  padding-left: 35px;
+}
+
+#listIDOne {
+  margin-bottom: 300px;
+}
+
+.btn {
+  border: 2px solid gray;
+  color: gray;
+  background-color: white;
+  padding: 8px 20px;
+  border-radius: 8px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.upload-btn-wrapper input[type="file"] {
+  border: 1px solid #8d191c !important;
+  font-size: 100px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0;
+}
+
+#buttonUpload02 {
+  border: 1px solid #8d191c;
+  border-radius: 10px;
+  width: 100px;
+}
+
+#profile-akun {
+  padding-left: 20px;
+}
+
+/* #imageLogoMPA{
+   margin-top:72px;
+   margin-bottom:78px;
+} */
+
+#profile-akun .card-body > p {
+  margin-top: -10px;
+  font-size: 12px;
+}
+
+#profile-akun #menu {
+  margin-left: 32px;
+}
+
+#profile-akun #kumpulan {
+  margin-top: 120px;
+  margin-left: 30px;
+}
+
+#profile-akun #list > a > img {
+  margin-right: 10px;
+}
+
+#profile-akun #menu > a {
+  color: #bbbbbb;
+  text-decoration: none;
+}
+
+#profile-akun #nav-active {
+  background-color: #f4e8e8;
+  color: #8d191c;
+}
+
+#profile-akun .nav-item > a {
+  color: #bbbbbb;
+  font-weight: 500;
+}
+
+#profile-akun .nav-item > a:hover {
+  color: #8d191c;
+}
+
+#profile-akun #konten2 {
+  border-bottom: 2px solid #eeeeee;
+  margin-top: 30px;
+  margin-left: 32px;
+  margin-right: 55px;
+}
+
+#profile-akun #konten3 {
+  margin-left: 32px;
+  margin-right: 55px;
+}
+
+#profile-akun #buton {
+  border-radius: 10px;
+  border: 2px solid #8d191c;
+}
+
+#profile-akun #buton1 {
+  border-radius: 10px;
+  background-color: #8d191c;
+}
+
+#profile-akun #menu > a:hover {
+  color: #8d191c;
+  text-decoration: underline;
+}
+
+#profile-akun #akun {
+  font-weight: 700;
+}
+
+#p {
+  font-weight: 400;
+  font-size: 14px;
+}
+
+#profile-akun #konten1 {
+  margin-top: 95px;
+}
+
+@media only screen and (max-width: 600px) {
+  #profile-akun #konten2 {
+    border-bottom: 2px solid #eeeeee;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
+  #profile-akun #buton {
+    margin-top: -1px !important;
+  }
+
+  #profile-akun #konten3 {
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+
+  #profile-akun #menu {
+    margin-left: 1rem !important;
+  }
+
+  #profile-akun #konten1 {
+    margin-top: -0rem !important;
+  }
+
+  #profile-akun #p {
+    font-size: 12px;
+  }
+
+  #profile-akun #buton1 {
+    border-radius: 8px;
+    background-color: #8d191c;
+    width: 100%;
+  }
+
+  #profile-akun #btn {
+    margin-top: 3rem;
+  }
+}
+
+Untuk Dashboard MAINa #jadwalSchedule {
+  margin-right: -100px !important;
+}
+
+#gambarAkademikOne {
+  float: left;
+  width: 60px;
+  height: 60px;
+}
+
+#gambarAkademikOne1 {
+  float: left;
+  width: 60px;
+  height: 60px;
+}
+
+#gambarAkademikOne2 {
+  float: left;
+  width: 60px;
+  height: 60px;
+}
+
+#matkulDoc {
+  padding-left: 30px;
+}
+
+#textInformasi {
+  margin-right: -100px;
+}
+
+#inforMationId {
+  margin-right: 40;
+}
+
+.list-items > a {
+  text-decoration: none;
+  color: #bbbbbb;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.list-items > a:hover {
+  color: #8d191c;
+}
+
+.event-photo-1 {
+  cursor: pointer;
+  width: 100%;
+  background-repeat: no-repeat;
+  object-fit: cover;
+}
+
+.event-photo-2 {
+  cursor: pointer;
+  width: 100%;
+  object-fit: cover;
+}
+
+.text-event {
+  background: rgba(141, 25, 28, 1);
+  background: linear-gradient(
+    90deg,
+    rgba(141, 25, 28, 1) 9%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  color: white;
+  padding: 10px;
+  margin: 9px 0 9px 0;
+  border-radius: 15px;
+}
+
+.text-event > .judul {
+  font-size: 20px;
+  font-weight: 700;
+  text-align: left;
+}
+
+.text-event > .sub-judul {
+  text-align: left;
+  font-size: 12px;
+}
+
+.event-photo-1 > .button {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.diagram {
+  border-radius: 10px;
+}
+
+UNTUK DASHBOARD PEMBAYARANa #logoutId {
+  margin-top: 344px;
+}
+
+#nav-active {
+  background-color: #f4e8e8 !important;
+  color: #8d191c !important;
+}
+
+#itemDashboard {
+  margin-top: 90px !important;
+}
+
+#logoMPAGAN {
+  margin-top: 72px;
+  margin-bottom: 80px;
+}
+
+#titleProjectOne {
+  padding-right: 40px !important;
+}
+
+.underlinessing {
+  color: black !important;
+  text-decoration-line: none;
+}
+
+#namaBoard {
+  font-weight: 700 !important;
+  color: grey;
+}
+
+#namaBoardOne {
+  font-weight: 700 !important;
+  color: grey;
+}
+
+.table-sub-title-no {
+  text-align: left;
+}
+
+.table-sub-title {
+  text-align: center;
+}
+
+.table-desc {
+  text-align: center;
+}
+
+#noUmber {
+  text-align: left;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.table-desc-nominal {
+  font-weight: bold;
+  text-align: center;
+}
+
+#submit-7 {
+  background-color: #8d191c;
+  border-radius: 8px;
+  color: #fff;
+  width: 284px;
+  height: 48px;
+  /* margin-top:25px; */
+  float: left;
+}
+
+@media (max-width: 767px) {
+  .table-sub-title {
+    font-size: 10px;
+  }
+
+  .table-sub-title-no {
+    font-size: 10px;
+  }
+
+  .table-desc {
+    font-size: 8px;
+  }
+
+  #total {
+    font-weight: bold;
+    font-size: 10px !important;
+    text-align: center;
+  }
+
+  #noUmber {
+    text-align: left;
+    font-weight: 400;
+    font-size: 10px;
+  }
+
+  .submit-7 {
+    text-align: center;
+  }
+}
+
+UNTUK DASHBOARD PERSAYARATANa #underlining {
+  margin-right: -20px;
+}
+
+#dokumenOne #konten1 {
+  margin-top: 95px;
+}
+
+#dokumenOne .card-body > p {
+  margin-top: -10px;
+  font-size: 12px;
+}
+
+#dokumenOne #menu {
+  margin-left: 32px;
+}
+
+#dokumenOne #kumpulan {
+  margin-top: 120px;
+  margin-left: 30px;
+}
+
+#dokumenOne #menu > a {
+  color: #bbbbbb;
+  text-decoration: none;
+}
+
+#dokumenOne #nav-active {
+  background-color: #f4e8e8;
+  color: #8d191c;
+}
+
+#dokumenOne .nav-item > a {
+  color: #bbbbbb;
+  font-weight: 500;
+}
+
+#dokumenOne .nav-item > a:hover {
+  color: #8d191c;
+}
+
+#dokumenOne #konten2 {
+  border-bottom: 2px solid #eeeeee;
+  margin-top: 30px;
+  margin-left: 32px;
+  margin-right: 55px;
+}
+
+#dokumenOne #konten3 {
+  margin-left: 32px;
+  margin-right: 55px;
+}
+
+#dokumenOne #buton {
+  border-radius: 8px;
+  border: 2px solid #8d191c;
+}
+
+#dokumenOne #buton1 {
+  border-radius: 10px;
+  background-color: #8d191c;
+}
+
+#dokumenOne #menu > a:hover {
+  color: #8d191c;
+  text-decoration: underline;
+}
+
+#dokumenOne #akun {
+  font-weight: 700;
+}
+
+#dokumenOne #p {
+  font-weight: 400;
+  font-size: 14px;
+}
+
+#dokumenOne .keterangan {
+  font-size: 16px;
+  font-weight: 700;
+}
+
+#dokumenOne #browse {
+  padding: 1rem;
+  border-radius: 10px;
+}
+
+#dokumenOne .drop {
+  font-size: 16px;
+  color: #bbbbbb;
+  margin-top: 5px;
+}
+
+#dokumenOne .text {
+  color: #bbbbbb;
+  width: 100%;
+  border: none;
+}
+
+#dokumenOne .buton {
+  background: #f9f9f9;
+  border: 2px solid #8d191c;
+  border-radius: 8px;
+  font-size: 13px;
+  color: #505050;
+}
+
+@media only screen and (max-width: 600px) {
+  #dokumenOne #konten2 {
+    border-bottom: 2px solid #eeeeee;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
+  #dokumenOne #buton {
+    margin-top: -1px !important;
+  }
+
+  #dokumenOne #konten3 {
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+
+  #dokumenOne #menu {
+    margin-left: 1rem !important;
+  }
+
+  #dokumenOne #konten1 {
+    margin-top: -0rem !important;
+  }
+
+  #dokumenOne #p {
+    font-size: 12px;
+  }
+
+  #dokumenOne #buton1 {
+    border-radius: 8px;
+    background-color: #8d191c;
+    width: 100%;
+  }
+
+  #dokumenOne #btn {
+    margin-top: 3rem;
+  }
+}
+
+UNTUK PAGE POLRI COMPONENT .underline {
+  text-decoration: none;
+}
+
+#artikelPageCol {
+  padding: 110px 200px 0 200px;
+}
+
+@media only screen and (max-width: 600px) {
+  #artikelPageCol {
+    overflow-x: hidden;
+    padding: 12px 13px 10px 13px;
+    margin-top: 120px;
+  }
+
+  #accordionPanel {
+    width: 245px !important;
+    height: 195px !important;
+  }
+
+  #judulArtikelId {
+    size: 10px !important;
+  }
+
+  /* .mpa-subtitle{
+        font-size: medium !important;
+    } */
+  #judulPromo {
+    margin-top: -100px;
+  }
+
+  #subtitleID {
+    font-size: large !important;
+  }
+}
+
+UNTUK DASHBOARD TRIALa #ProgramTrialID {
+  color: black !important;
+  text-decoration: none !important;
+}
+
+#inforM {
+  color: grey;
+  text-decoration-line: none;
+}
+
+#sloganText {
+  margin-left: 40px;
+}
+
+.list-items > a {
+  text-decoration: none;
+  color: #bbbbbb;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+#namaUser {
+  font-weight: 700;
+  width: 262px;
+  height: 44px;
+  margin-right: 85px;
+}
+
+.list-items > a:hover {
+  color: #8d191c;
+}
+
+a:active {
+  color: #8d191c;
+}
+
+.komponenTitleh1 {
+  font-size: 34px;
+  font-weight: 700;
+}
+
+input[type="checkbox"] {
+  width: 18px;
+  height: 18px;
+}
+
+.aktif {
+  color: #8d191c !important;
+}
+
+.img20m {
+  float: right;
+  margin-top: 15px;
+  border-radius: 12px;
+}
+
+.k {
+  margin-top: -7.5rem;
+}
+
+.notifikasim {
+  float: right;
+  margin-right: 26px;
+  margin-top: 20px;
+  width: 26px;
+}
+
+.img20m {
+  float: right;
+  margin-top: 5px;
+  border-radius: 12px;
+}
+
+.list-items-logout > a {
+  text-decoration: none;
+  color: #bbbbbb;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.notifikasi {
+  float: right;
+  margin-right: 26px;
+  margin-top: 30px;
+  width: 26px;
+}
+
+.card-p {
+  margin: 4px 0px 20px 20px !important;
+  color: #bbbbbb;
+}
+
+#card2 > p {
+  margin: 4px 0px 0px 20px;
+}
+
+#card2 > img {
+  margin: 20px 0px 0px 20px;
+  width: 60px;
+}
+
+#card2 > h5 {
+  margin: 29px 0px 0px 20px;
+}
+
+#row {
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+#kursusID {
+  margin-bottom: 20px;
+}
+
+#kursusID > h1 {
+  font-size: 24px;
+  font-weight: 800;
+}
+
+#card > a {
+  text-decoration: none;
+  color: black;
+}
+
+#programDiv {
+  background-color: #8d191c;
+  color: white;
+  margin-top: 0.5rem;
+}
+
+.card > p {
+  margin-top: 12px;
+  margin-left: 15px;
+  font-size: 12px;
+}
+
+#tanggalBerlaku {
+  width: 12rem;
+  margin-top: -1.7rem;
+  margin-left: 150px;
+  font-size: 9px;
+}
+
+.card > h5 {
+  width: 10rem;
+  font-size: 17px;
+  margin-bottom: 11px;
+  margin-top: -17px;
+  margin-left: 15px;
+}
+
+#card2 {
+  border-radius: 20px;
+}
+
+.card-body > h1 {
+  font-size: 22px;
+  margin-left: 32px;
+  margin-top: 32px;
+  font-weight: 800;
+}
+
+.card-body > p {
+  margin-top: -11px;
+  margin-left: 32px;
+  font-size: 16px;
+  width: 15rem;
+}
+
+#imagePinkey {
+  position: absolute;
+  top: 0rem;
+  right: 0rem;
+  border-radius: 20px;
+  height: 100%;
+}
+
+#ceklisTitleID {
+  position: absolute;
+  top: 2rem;
+  right: 2rem;
+  width: 108px;
+  height: 141px;
+}
+
+#card1 {
+  border-radius: 20px;
+}
+
+#kontenIDOne {
+  margin-top: 50px;
+}
+
+#kontenIDTwo {
+  margin-top: 30px;
+}
+
+#kontenIDThree {
+  margin-top: 15px;
+}
+
+#CardSome {
+  width: 252px;
+  height: 199px;
+}
+
+#imgSize {
+  width: 60px;
+  height: 60px;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+#buttonPembayaran {
+  width: 210px;
+  height: 38px;
+}
+
+@media only screen and (max-width: 600px) {
+  #contTrial {
+    padding: 10px 10px 10px 10px;
+  }
+
+  #programDiv {
+    background-color: #8d191c;
+    color: white;
+    margin-top: 0.5rem;
+    width: 330px;
+    margin-left: 30px;
+  }
+
+  #namaUser {
+    font-weight: 600;
+    font-size: x-large !important;
+    width: 10px;
+    height: 44px;
+  }
+
+  #buttonPembayaran {
+    width: 100px;
+    height: 50px;
+  }
+
+  #komponenTitle {
+    margin-top: -3rem;
+  }
+
+  #CardSome {
+    width: 200px !important;
+  }
+
+  .card-body > h1 {
+    font-size: 13.67px;
+    margin-left: 32px;
+    margin-top: 32px;
+    font-weight: 800;
+  }
+
+  .card-body > p {
+    margin-top: -11px;
+    margin-left: 32px;
+    font-size: 9.94px;
+    width: 10rem;
+  }
+
+  .card-body > a {
+    margin-left: 32px;
+    background: #8d191c;
+    width: 124.24px;
+    color: white;
+    font-size: 9.94px;
+    margin-bottom: 32px;
+    border-radius: 8px;
+  }
+
+  #bg {
+    position: absolute;
+    top: 0rem;
+    right: 0rem;
+    width: 30%;
+    border-radius: 20px;
+    height: 100%;
+  }
+
+  #ceklisTitle {
+    position: absolute;
+    top: 2rem;
+    right: 2rem;
+    width: 50px;
+    height: 41px;
+  }
+}
+
+UNTUK DASHBOARD UTAMAa #buttonPretest {
+  width: 200px;
+  height: 48px;
+}
+
+#userNamed {
+  font-weight: 700;
+}
+
+#nameCourse {
+  margin-top: 40px;
+}
+
+#imageCourseOne {
+  width: 80px;
+  height: 80px;
+}
+
+#titleCardOne {
+  font-weight: 700;
+  padding-left: 20px;
+  padding-top: 29px;
+}
+
+#nameCardOne {
+  font-weight: 700;
+  padding-left: 30px;
+}
+
+body {
+  background-color: #f9f9f9;
+  font-family: "Inter", sans-serif;
+}
+
+.list-items > a {
+  text-decoration: none;
+  color: #bbbbbb;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.list-items > a:hover {
+  color: #8d191c;
+}
+
+a:active {
+  color: #8d191c;
+}
+
+.titleh1 {
+  font-size: 34px;
+  font-weight: 700;
+}
+
+input[type="checkbox"] {
+  width: 18px;
+  height: 18px;
+}
+
+.aktif {
+  color: #8d191c !important;
+}
+
+#img20mOne {
+  float: right;
+  margin-top: 15px;
+  border-radius: 12px;
+}
+
+.KontenId {
+  margin-top: -7.5rem;
+}
+
+#notikasiID {
+  float: right;
+  margin-right: 26px;
+  margin-top: 20px;
+  width: 26px;
+}
+
+.img20m {
+  float: right;
+  margin-top: 5px;
+  border-radius: 12px;
+}
+
+.list-items-logout > a {
+  text-decoration: none;
+  color: #bbbbbb;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.notifikasi {
+  float: right;
+  margin-right: 26px;
+  margin-top: 30px;
+  width: 26px;
+}
+
+.card-p {
+  margin: 4px 0px 20px 20px !important;
+  color: #bbbbbb;
+}
+
+#card2 > p {
+  margin: 4px 0px 0px 20px;
+}
+
+#card2 > img {
+  margin: 20px 0px 0px 20px;
+  width: 60px;
+}
+
+#card2 > h5 {
+  margin: 29px 0px 0px 20px;
+}
+
+#kursus {
+  margin-bottom: 20px;
+}
+
+#kursus > h1 {
+  font-size: 24px;
+  font-weight: 800;
+}
+
+#card > a {
+  text-decoration: none;
+  color: black;
+}
+
+#programPelatihan {
+  background-color: #8d191c;
+  color: white;
+  /* margin-top: 0.5rem; */
+  border-radius: 12px;
+  width: 403px;
+  height: 72px;
+}
+
+.card > p {
+  margin-top: 12px;
+  margin-left: 15px;
+  font-size: 12px;
+}
+
+#paragrafNavbar {
+  width: 12rem;
+  margin-top: -1.7rem;
+  margin-left: 150px;
+  font-size: 9px;
+}
+
+.card > h5 {
+  width: 10rem;
+  font-size: 17px;
+  margin-bottom: 11px;
+  margin-top: -17px;
+  margin-left: 15px;
+}
+
+#card2 {
+  border-radius: 20px;
+}
+
+.card-body > h1 {
+  font-size: 22px;
+  margin-left: 32px;
+  margin-top: 32px;
+  font-weight: 800;
+}
+
+.card-body > p {
+  margin-top: -11px;
+  margin-left: 32px;
+  font-size: 16px;
+  width: 15rem;
+}
+
+.card-body > a {
+  margin-left: 32px;
+  background: #8d191c;
+  width: 200px;
+  color: white;
+  margin-bottom: 32px;
+  border-radius: 8px;
+}
+
+#bgElipsOne {
+  position: absolute;
+  top: 0rem;
+  right: 0rem;
+  border-radius: 20px;
+  height: 100%;
+}
+
+#ceklisImage {
+  position: absolute;
+  top: 2rem;
+  right: 5rem;
+  width: 102px;
+  height: 136px;
+}
+
+#cardKonten {
+  border-radius: 20px;
+}
+
+#kontenOne {
+  margin-top: 50px;
+}
+
+#kontenTwo {
+  margin-top: 30px;
+}
+
+#kontenThree {
+  margin-top: 15px;
+}
+
+.card:hover {
+  border: 2px solid #8d191c;
+}
+
+@media only screen and (max-width: 600px) {
+  #userNamed {
+    font-size: x-large;
+  }
+
+  #cardKonten {
+    width: 350px;
+    height: 170px;
+  }
+
+  #buttonPretest {
+    width: 124px;
+    height: 27px;
+    margin-top: 1px;
+    margin-left: 10px;
+  }
+
+  #mobileTabs {
+    padding: 10px 10px 10px 10px;
+  }
+
+  #programPelatihan {
+    margin-top: -1px;
+    width: 350px;
+    height: 70px;
+  }
+
+  #nameCardOne {
+    font-weight: 600;
+    padding-left: 5px;
+  }
+
+  #subTitleId {
+    padding-right: 5px;
+    margin-left: 7px !important;
+    font-size: small !important;
+  }
+
+  #bgElipsOne {
+    position: absolute;
+    width: 100px;
+    height: 170px !important;
+  }
+
+  #ceklisImage {
+    position: absolute;
+    margin-top: -20px;
+    width: 80px;
+    height: 84px;
+    margin-right: -60px !important;
+  }
+
+  #card2 {
+    width: 350px;
+    height: 110px;
+  }
+
+  #titleCardOne {
+    width: 300px;
+    height: 40px;
+    margin-top: -100px;
+    margin-left: 80px;
+  }
+
+  #titleData {
+    padding-left: 80px;
+    margin-top: 15px !important;
+  }
+
+  #fordateId {
+    padding-left: 80px;
+  }
+}
+
+UNTUK DOKUMEN UPLOADa #dokumenPaid {
+  padding: 10px 230px 0 32px;
+  padding-right: -200px !important;
+}
+
+#DashboardLinkName {
+  margin-left: 40px;
+}
+
+#dokumenPaid #konten1 {
+  margin-top: 95px;
+}
+
+#dokumenPaid .card-body > p {
+  margin-top: -10px;
+  font-size: 12px;
+}
+
+#dokumenPaid #menuMPAID {
+  margin-left: 32px;
+}
+
+#dokumenPaid #kumpulan {
+  margin-top: 120px;
+  margin-left: 30px;
+}
+
+#dokumenPaid #menuMPAID > a {
+  color: #bbbbbb;
+  text-decoration: none;
+}
+
+#dokumenPaid #nav-active {
+  background-color: #f4e8e8;
+  color: #8d191c;
+}
+
+#dokumenPaid .nav-item > a {
+  color: #bbbbbb;
+  font-weight: 500;
+}
+
+#dokumenPaid .nav-item > a:hover {
+  color: #8d191c;
+}
+
+#dokumenPaid #konten2 {
+  border-bottom: 2px solid #eeeeee;
+  margin-top: 30px;
+  margin-left: 32px;
+  margin-right: 55px;
+}
+
+#dokumenPaid #konten3 {
+  margin-left: 32px;
+  margin-right: 55px;
+}
+
+#dokumenPaid #buton {
+  border-radius: 8px;
+  border: 2px solid #8d191c;
+}
+
+#dokumenPaid #buton1 {
+  border-radius: 10px;
+  background-color: #8d191c;
+}
+
+#dokumenPaid #menuMPAID > a:hover {
+  color: #8d191c;
+  text-decoration: underline;
+}
+
+#dokumenPaid #akun {
+  font-weight: 700;
+}
+
+#dokumenPaid #p {
+  font-weight: 444px;
+  font-size: 14px;
+}
+
+#dokumenPaid .keterangan {
+  font-size: 16px;
+  font-weight: 700;
+}
+
+#dokumenPaid #browse {
+  padding: 1rem;
+  border-radius: 10px;
+}
+
+#dokumenPaid .drop {
+  font-size: 16px;
+  color: #bbbbbb;
+  margin-top: 5px;
+}
+
+#dokumenPaid .text {
+  color: #bbbbbb;
+  width: 100%;
+  border: none;
+}
+
+#dokumenPaid .buton {
+  background: #f9f9f9;
+  border: 2px solid #8d191c;
+  border-radius: 8px;
+  font-size: 13px;
+  width: 80px;
+  color: #505050;
+}
+
+@media only screen and (max-width: 600px) {
+  #dokumenPaid #konten2 {
+    border-bottom: 2px solid #eeeeee;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
+  #dokumenPaid #konten3 {
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+
+  #dokumenPaid #p {
+    font-size: 12px;
+  }
+
+  #dokumenPaid #buton1 {
+    border-radius: 8px;
+    background-color: #8d191c;
+    width: 100%;
+  }
+
+  #dokumenPaid .buton {
+    background: #f9f9f9;
+    border: 2px solid #8d191c;
+    border-radius: 8px;
+    font-size: 13px;
+    width: 70px;
+    color: #505050;
+  }
+}
+
+UNTUK PAGEPRETESTa #nameLinkOneId {
+  color: grey !important;
+  text-decoration-line: none;
+  font-weight: 500;
+}
+
+#nameLinkTwo {
+  color: grey;
+  text-decoration-line: none;
+  font-weight: 500;
+}
+
+#radioButtonONE {
+  /* border: 2px solid black; */
+  width: 760px;
+  height: 104px;
+  background-color: white;
+  border-radius: 20px;
+  margin-top: 10px;
+}
+
+#idSoal3 {
+  margin-left: 95px;
+  margin-top: -20px;
+}
+
+#idSoal2 {
+  margin-left: 95px;
+  margin-top: -20px;
+}
+
+#idSoal1 {
+  margin-left: 95px;
+  margin-top: -20px;
+}
+
+#soalId {
+  padding-left: -90px !important;
+}
+
+#settingContainerPre {
+  padding: 60px 330px 0 0 !important;
+}
+
+#imageAkademikMpa {
+  width: 76px;
+  height: 76px;
+}
+
+#imageJasmaniMpa {
+  width: 76px;
+  height: 76px;
+}
+
+#imagePsikologiMpa {
+  width: 76px;
+  height: 76px;
+}
+
+#pretest {
+  font-size: 34px;
+  color: #151313;
+  margin: 20px 0px 0px 0px;
+  font-weight: bold;
+}
+
+#desc > p {
+  font-size: 12px;
+  color: #151313;
+  margin: 0px 0px 20px 0px;
+  line-height: 18px;
+}
+
+#col1 > img {
+  border-radius: 10px;
+}
+
+.card-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 28px;
+  margin: 0px 10px 10px 10px;
+}
+
+.card-text {
+  color: #bbbbbb;
+  margin: 0px 10px 10px 10px;
+}
+
+#flexRadioDefault1 {
+  float: right;
+  margin-top: -3rem;
+  margin-right: -18rem;
+}
+
+#submitButtonI {
+  background-color: #8d191c;
+  border-radius: 8px;
+  color: #fff;
+  width: 174px;
+  height: 44px;
+  font-size: medium;
+}
+
+@media (max-width: 768px) {
+  #nameLinkOneId {
+    color: grey;
+    font-weight: 500;
+    margin-left: -15px;
+    text-decoration-line: none;
+  }
+
+  #nameLinkTwo {
+    color: grey;
+    font-weight: 500;
+    text-decoration: none;
+  }
+
+  #settingContainerPre {
+    padding: 10px 10px 10px 15px !important;
+  }
+
+  #submitButtonI {
+    background-color: #8d191c;
+    border-radius: 8px;
+    color: #fff;
+    height: 43px;
+    font-size: medium;
+    margin-bottom: 300px;
+  }
+
+  #radioButtonONE {
+    /* border: 2px solid black; */
+    width: 350px;
+    height: 110px;
+    background-color: whitesmoke;
+    border-radius: 20px;
+    margin-top: 10px;
+  }
+
+  #inlineRadio1 {
+    float: right;
+    margin-top: 30px;
+    margin-right: -5px;
+  }
+
+  #inlineRadio2 {
+    float: right;
+    margin-top: 30px;
+    margin-right: -5px;
+  }
+
+  #inlineRadio3 {
+    float: right;
+    margin-top: 30px;
+    margin-right: -5px;
+  }
+}
+
+UNTUK PAGE PROGRAM TRIAL .underlined {
+  color: gray;
+  text-decoration-line: none !important;
+  font-weight: 700;
+}
+
+#form-control {
+  width: 364px;
+  height: 38px;
+}
+
+#crumbContainer {
+  margin-top: 88px;
+  padding-left: 25px;
+}
+
+#textData {
+  margin-left: 92px;
+  margin-top: -25px;
+  color: grey;
+}
+
+#sourceMateriOne {
+  margin-left: 12px;
+}
+
+#radioButtonOnly {
+  /* border: 2px solid black; */
+  width: 760px;
+  height: 104px;
+  background-color: whitesmoke;
+  border-radius: 20px;
+  margin-top: 10px;
+}
+
+#inlineRadio1 {
+  float: right;
+  margin-top: 30px;
+  margin-right: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+  #sizeCrump {
+    font-size: medium !important;
+  }
+
+  #crumbContainer {
+    margin-top: 15px;
+    padding-left: 21px;
+  }
+
+  #radioButtonOnly {
+    /* border: 2px solid black; */
+    width: 330px;
+    height: 100px;
+    background-color: whitesmoke;
+    border-radius: 20px;
+    margin-top: 10px;
+  }
+
+  #inlineRadio1 {
+    float: right;
+    margin-top: 30px;
+    margin-right: -5px;
+  }
+
+  #imageTry1 {
+    color: #a7b4e2;
+  }
+}
+
+UNTUK PAGE SEBELUM AKUN .upload-btn-wrapper {
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+}
+
+.upload-btn-wrapper input[type="file"] {
+  border: 1px solid #8d191c !important;
+  font-size: 100px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0;
+}
+
+#buttonUpload01 {
+  border: 1px solid #8d191c;
+  border-radius: 10px;
+  width: 100px;
+}
+
+.underlineOne {
+  color: black !important;
+}
+
+#kontenNavigation {
+  margin-left: -45px !important;
+}
+
+#mainDashboard {
+  color: grey;
+  font-weight: 500;
+  text-decoration-line: none;
+}
+
+#titleSlogan > p {
+  font-weight: bold;
+  font-size: 34px;
+  line-height: 130%;
+  color: #151313;
+  margin-bottom: 0px;
+}
+
+#foto > h5 {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 21px;
+  color: #151313;
+}
+
+.form-label {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 21px;
+}
+
+@media only screen and (max-width: 600px) {
+  #kontenPart2 {
+    border-bottom: 2px solid #eeeeee;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
+  #buton {
+    margin-top: -1px !important;
+  }
+
+  #kontenPart3 {
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+
+  #menu {
+    margin-left: 1rem !important;
+  }
+
+  #keteranganDot > p {
+    font-size: 12px;
+    line-height: 18px;
+    color: #151313;
+  }
+}
+
+UNTUK PAGE HASIL PRETESTa #gambarKeteranganAK {
+  width: 75px;
+  height: 75px;
+}
+
+#scoreTest3 {
+  margin-left: 245px;
+  padding-top: 22px;
+}
+
+#scoreTest2 {
+  margin-left: 236px;
+  padding-top: 22px;
+}
+
+#hasilPretest > .sub-nav-wrapper > .sub-nav-body > .sub-nav-item > * {
+  color: #bbbbbb;
+  font-size: 13px;
+}
+
+#nav-pill > .nav-item > a {
+  color: #bbbbbb;
+}
+
+#nav-pill > .nav-item > a:hover {
+  background-color: #f4e8e8;
+  color: #8d191c;
+}
+
+@media screen and (max-width: 600px) {
+  #namaTestID {
+    font-size: large !important;
+    padding: 0;
+    margin: 0;
+    width: 100px;
+  }
+
+  #conCardID {
+    width: 330px;
+    height: 120px;
+  }
+
+  #hasilPretest {
+    padding: 10px 10px 10px 10px;
+  }
+
+  #scoreTest3 {
+    font-size: x-large !important;
+    margin-left: 50px !important;
+    padding-top: 22px !important;
+  }
+
+  #scoreTest2 {
+    font-size: x-large !important;
+    margin-left: 50px !important;
+    padding-top: 22px !important;
+  }
+
+  #gambarKeteranganAK {
+    width: 70px !important;
+    height: 70px !important;
+    margin-top: 12px;
+    margin-left: -6px;
+  }
+}
+
+UNTUK PAGE ARTIKEL POLRI .underlining {
+  text-decoration-line: none !important;
+  color: black !important;
+}
+
+#containerPolriID {
+  padding: 116px 341px 0 250px !important;
+}
+
+#GambarArticle0 {
+  width: 730px;
+  height: 340px;
+  border-radius: 20px;
+}
+
+.underlineded {
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 600px) {
+  #dateMonth {
+    margin-top: -100px;
+  }
+
+  #containerPolriID {
+    padding: 15px 10px 10px 11px !important;
+    overflow-x: hidden;
+    margin-top: 100px;
+  }
+
+  #GambarArticle0 {
+    margin: 0px;
+    width: 355px;
+    height: 180px;
+    border-radius: 20px;
+  }
+
+  #judulArtikel {
+    width: 300px;
+    height: 200px;
+    font-size: smaller;
+  }
+
+  #titleLast {
+    font-size: medium !important;
+  }
+
+  #display {
+    font-size: 32px !important;
+    line-height: 36px !important;
+  }
+}
+
+UNTUK ARTIKEL PROMOa .underline {
+  text-decoration: none;
+}
+
+#artikelTrumpt {
+  padding: 60px 341px 0 250px;
+  margin-top: -20px;
+}
+
+#imageAkpolView {
+  width: 730px;
+  height: 340px;
+  border-radius: 15px;
+  margin-left: -15px !important;
+}
+
+#buttonBeliID {
+  width: 255px;
+  height: 48px;
+  border-radius: 15px;
+  border: 1px solid white;
+  color: #f4e8e8;
+  float: left;
+  margin-bottom: 200px;
+}
+
+#priceDisc {
+  width: 154px;
+  height: 44px;
+  border-radius: 15px;
+  color: #8d191c;
+  border: 1px solid;
+  background-color: #f4e8e8;
+}
+
+@media only screen and (max-width: 600px) {
+  #artikelTrumpt {
+    padding: 10px 10px 10px 10px !important;
+    overflow-x: hidden !important;
+    margin-top: 120px;
+  }
+
+  #judulArtikel {
+    font-size: x-large !important;
+  }
+
+  #dateWebsite {
+    margin-top: -150px;
+  }
+
+  #hargaDisct {
+    font-size: medium !important;
+    margin-left: -25px;
+  }
+
+  #hargaPromo {
+    font-size: medium !important;
+    margin-right: 30px !important;
+  }
+
+  #buttonBeliID {
+    width: 200px !important;
+    height: 40px;
+  }
+
+  #subtitleLorem {
+    font-size: medium !important;
+  }
+
+  #priceDisc {
+    font-size: smaller !important;
+    width: 120px;
+    height: 40px;
+  }
+
+  #imageAkpolView {
+    width: 330px;
+    height: 200px;
+    border-radius: 15px;
+  }
+}
+
+DASHBOARD SOAL Akademik #NamaSoalAkademik {
+  font-weight: 800 !important;
+  color: #8d191c;
+  margin-bottom: -2px;
+}
+
+#chooseOptionA {
+  width: 44px;
+  height: 39px;
+}
+
+#chooseOptionB {
+  width: 44px;
+  height: 39px;
+}
+
+#chooseOptionC {
+  width: 44px;
+  height: 39px;
+}
+
+#chooseOptionD {
+  width: 44px;
+  height: 39px;
+}
+
+#pilihanGanda {
+  font-weight: normal !important;
+}
+
+#tandaSoalTag {
+  color: black;
+  margin-left: 10px !important;
+}
+
+#soalAkademikKonten > .sub-nav-wrapper > .sub-nav-body > .sub-nav-item > * {
+  color: #bbbbbb;
+  font-size: 13px;
+}
+
+#soalAkademik > .question-wrapper > .question-item > h4 {
+  font-size: 23px;
+  font-weight: bold;
+}
+
+#answer-wrapper > .answer > .button-answer .answer-item .answerOption {
+  margin-left: 20px;
+}
+
+#button-soal > .jawaban-soal > button {
+  width: 37px;
+  border: none;
+  outline: none;
+  color: white;
+  background-color: #7e7e7e;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+#button-soal > .jawaban-soal > button:active {
+  background-color: #8d191c;
+}
+
+#button-submit > .button > button {
+  width: 100%;
+  background-color: #8d191c;
+  color: white;
+}
+
+#button-submit > .button {
+  margin-top: 20px;
+}
+
+/* Mobile Responsive */
+@media (max-width: 767px) {
+  #justContent {
+    margin-bottom: -30px;
+  }
+
+  #NamaSoalAkademik {
+    margin-top: -20px;
+  }
+
+  #soalAkademikKonten {
+    margin-top: -30px;
+  }
+
+  #soalAkademik > .question-wrapper > .question-item > h4 {
+    font-size: 15px;
+    font-weight: bold;
+  }
+
+  #chooseOptionA {
+    width: 80px !important;
+    height: 70px !important;
+    margin-top: -5px !important;
+  }
+
+  #chooseOptionB {
+    width: 80px !important;
+    height: 70px !important;
+    margin-top: -5px !important;
+  }
+
+  #chooseOptionC {
+    width: 80px !important;
+    height: 70px !important;
+    margin-top: -5px !important;
+  }
+
+  #chooseOptionD {
+    width: 80px !important;
+    height: 70px !important;
+    margin-top: -5px !important;
+  }
+
+  #buttonChooseSoal {
+    width: 300px;
+    height: 100px;
+  }
+
+  #pilihanGanda {
+    font-size: large !important;
+  }
+
+  #titleMatkul {
+    margin-top: 10px;
+  }
+}
+
+UNTUK DASHBOARD JASMANI PAGE .underlineR {
+  color: gray;
+  text-decoration-line: none !important;
+  font-weight: 700;
+}
+
+#form-control {
+  width: 364px;
+  height: 38px;
+}
+
+#crumbContainerID {
+  margin-top: 88px;
+  padding-left: 25px;
+}
+
+#buttonSubmitLast {
+  width: 255px;
+  height: 48px;
+  float: right;
+  color: white;
+  border-radius: 10px;
+  margin-bottom: 100px;
+}
+
+@media only screen and (max-width: 600px) {
+  #buttonSubmitLast {
+    width: 335px;
+    height: 48px;
+    float: left;
+  }
+
+  #sizeCrump {
+    font-size: medium !important;
+  }
+
+  #crumbContainerID {
+    margin-top: 15px;
+    padding-left: 21px;
+  }
+}
+
+UNTUK PAGE HASIL AKADEMIK #coreKalimat {
+  height: 500;
+  text-decoration-line: none;
+  color: grey;
+}
+
+#broadMenuId {
+  margin-top: 100px;
+  margin-bottom: 90px;
+}
+
+#cardAkademik4 {
+  width: 300px;
+  height: 199px;
+}
+
+#imageScoreId {
+  width: 60px;
+  height: 60px;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+  #akademikCon {
+    padding: 15px;
+    margin: 10px 10px 0 10px;
+  }
+
+  #broadMenuId {
+    margin-top: 30px;
+    margin-bottom: 25px;
+  }
+
+  #imageScoreId {
+    width: 75px;
+    height: 750px;
+    margin-top: 20px;
+    margin-left: 20px;
+  }
+
+  #cardAkademik4 {
+    width: 335px;
+    height: 199px;
+  }
+}
+
+UNTUK PAGE HASIL AKADEMIK #akademikID {
+  font-weight: 800 !important;
+}
+
+#coreKalimat {
+  height: 500;
+  text-decoration-line: none;
+  color: grey;
+}
+
+#broadMenuId {
+  margin-top: 100px;
+  margin-bottom: 90px;
+}
+
+#cardAkademik4 {
+  width: 300px;
+  height: 199px;
+}
+
+#imageScoreId {
+  width: 60px;
+  height: 60px;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+  #akademikID {
+    font-weight: 700 !important;
+    font-size: xx-large !important;
+  }
+
+  #akademikCon {
+    padding: 15px;
+    margin: 10px 10px 0 10px;
+  }
+
+  #broadMenuId {
+    margin-top: 30px;
+    margin-bottom: 25px;
+  }
+
+  #imageScoreId {
+    width: 75px;
+    height: 750px;
+    margin-top: 20px;
+    margin-left: 20px;
+  }
+
+  #cardAkademik4 {
+    width: 335px;
+    height: 199px;
+  }
+}
+
+UNTUK DASHBOARD REGISTER #academyRegister {
+  font-weight: 800 !important;
+}
+
+#titlemasukId {
+  color: #8d191c !important;
+  font-weight: 700;
+}
+
+#buttonRegister {
+  margin-top: 13px;
+  margin-bottom: 10px;
+}
+
+#masukId {
+  margin-top: 10px !important;
+}
+
+#eyeParent {
+  position: absolute;
+  top: 6px;
+  right: 8px;
+  margin-bottom: 32px !important;
+}
+
+.underliness {
+  text-decoration: none;
+}
+
+#formInputGAN {
+  padding: 92px 164px 0 125px;
+}
+
+#text-1 {
+  text-decoration-line: none;
+  color: black;
+}
+
+@media only screen and (max-width: 600px) {
+  #gambarOne {
+    width: 100%;
+    height: 100%;
+    margin-top: 40px;
+  }
+
+  #btnSubmit {
+    width: 370px;
+  }
+
+  #formInputGAN {
+    padding: 10px 10px 0 10px;
+  }
+}
+
+UNTUK DASHBOARD LOGIN #barPromo {
+  text-align: left;
+}
+
+#eyeParent {
+  position: absolute;
+  top: 6px;
+  right: 8px;
+  margin-bottom: 32px !important;
+}
+
+.underliness {
+  text-decoration: none;
+}
+
+#formInputLogin {
+  padding: 92px 164px 0 125px;
+}
+
+#acc-1ID {
+  margin-top: 32px;
+  text-decoration-line: none;
+}
+
+#btnSubmitDD {
+  margin-top: 42px;
+  margin-bottom: 32px !important;
+  text-align: center;
+}
+
+#pass_log_ID {
+  top: 25px;
+  border-color: grey;
+  margin-bottom: 32px;
+}
+
+@media only screen and (max-width: 600px) {
+  #gambarOneId {
+    width: 100%;
+    height: 100%;
+    margin-top: 40px;
+  }
+
+  #btnSubmitDD {
+    width: 370px;
+  }
+
+  #formInputLogin {
+    padding: 10px 10px 0 10px;
+  }
+}
+
+Untuk Reset Password .underliness {
+  /* color: black !important; */
+  text-decoration: none;
+}
+
+#formInput {
+  padding: 92px 164px 0 125px;
+}
+
+#logoMPA {
+  width: 230px;
+  height: 80px;
+}
+
+#resetPWA {
+  margin-top: 40px;
+}
+
+#emailMPA {
+  margin-top: 40px;
+}
+
+#exampleInputEmail1 {
+  width: 650px;
+  height: 48px;
+}
+
+#batenKirim {
+  width: 650px;
+  height: 48px;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  color: white;
+}
+
+#backLogin {
+  text-decoration-line: none;
+}
+
+@media only screen and (max-width: 600px) {
+  #logoMPA {
+    width: 100px;
+    height: 80px;
+    margin-top: 40px;
+  }
+
+  #exampleInputEmail1 {
+    width: 350px;
+  }
+
+  #batenKirim {
+    width: 350px;
+  }
+
+  #mobileReset {
+    padding: 15px 10px 10px 17px;
+  }
+}
+
+UNTUK NEXT SIGNUP #img-idProgram {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+#img-idProgram img {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  user-select: none;
+}
+
+#cardGanID {
+  /* background-color: burlywood; */
+  width: 255px;
+  height: 255px;
+  margin: 0 3rem;
+  padding: 1rem 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 2px solid white;
+  border-radius: 0.8rem;
+  position: relative;
+  cursor: pointer;
+  transition: 200ms ease-in-out transform;
+}
+
+.check-btnID {
+  position: absolute;
+  top: -1%;
+  right: -1%;
+  background-color: white;
+  width: 1.5rem;
+  height: 1.6rem;
+  display: grid;
+  place-items: center;
+  border-radius: 0.2rem;
+}
+
+.fa-check {
+  color: #fff;
+  background-color: #fff;
+}
+
+.titleONEID {
+  margin: 1rem 0;
+}
+
+.card:hover {
+  transform: scale(1.02);
+}
+
+.card:active {
+  transform: scale(0.98);
+}
+
+input[id="card-one"]:checked ~ label[for="card-one"] .card,
+input[id="card-two"]:checked ~ label[for="card-two"] .card,
+input[id="card-three"]:checked ~ label[for="card-three"] .card {
+  border-color: #8d191c;
+}
+
+input[id="card-one"]:checked ~ label[for="card-one"] .card .check-btnID,
+input[id="card-two"]:checked ~ label[for="card-two"] .card .check-btnID,
+input[id="card-three"]:checked ~ label[for="card-three"] .card .check-btnID {
+  background-color: #8d191c;
+}
+
+input[id="card-one"]:checked ~ label[for="card-one"] .card .fa-check,
+input[id="card-two"]:checked ~ label[for="card-two"] .card .fa-check,
+input[id="card-three"]:checked ~ label[for="card-three"] .card .fa-check {
+  background-color: #8d191c;
+}
+
+input {
+  display: none;
+}
+
+/* Section Card */
+
+#progressbarGAN {
+  margin-bottom: 20px;
+  overflow: hidden;
+  text-align: center;
+  margin-top: 20px;
+}
+
+#progressbarGAN li {
+  list-style-type: none;
+  color: #8d191c;
+  font-size: 14px;
+  width: 33.33%;
+  float: left;
+  position: relative;
+}
+
+#progressbarGAN li:before {
+  width: 20px;
+  line-height: 20px;
+  display: block;
+  font-size: 10px;
+  color: #333;
+  background: #8d191c;
+  border-radius: 3px;
+  margin: 0 auto 5px auto;
+}
+
+#progressbarGAN li:after {
+  width: 100%;
+  height: 2px;
+  background: #8d191c;
+  position: absolute;
+  left: -50%;
+  top: 9px;
+}
+
+#progressbarGAN li:first-child:after {
+  content: none;
+}
+
+#progressbarGAN li.active:before,
+#progressbarGAN li.active:after {
+  background: #27ae60;
+  color: #8d191c;
+}
+
+@media only screen and (max-width: 600px) {
+  #progressbarGAN {
+    padding: 13px 12px 10px 13px;
+  }
+
+  #tniviewID {
+    max-height: 350px !important;
+  }
+}
+
+/* untuk subpromo */

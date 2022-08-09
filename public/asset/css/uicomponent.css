@@ -1,0 +1,430 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap");
+
+.mpa-bg-primary {
+  background-color: #8d191c !important;
+}
+
+* {
+  font-family: "Inter", sans-serif;
+}
+
+.mpa-h1-bold {
+  font-family: Inter !important;
+  font-style: normal !important;
+  font-weight: bold !important;
+  font-size: 60px !important;
+  line-height: 73px !important;
+  /* identical to box height */
+  text-transform: capitalize !important;
+}
+
+.mpa-h1 {
+  font-family: Inter !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-size: 60px !important;
+  line-height: 73px !important;
+  /* identical to box height */
+  text-transform: capitalize !important;
+}
+
+.mpa-subtitle-bold {
+  font-family: Inter !important;
+  font-style: normal !important;
+  font-weight: bold !important;
+  font-size: 24px !important;
+  line-height: 38px !important;
+  /* identical to box height, or 158% */
+}
+
+.mpa-subtitle {
+  font-family: Inter !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-size: 24px !important;
+  line-height: 38px !important;
+  /* identical to box height, or 158% */
+}
+
+.mpa-h2-headline {
+  font-family: Inter !important;
+  font-style: normal !important;
+  font-weight: bold !important;
+  font-size: 34px !important;
+  line-height: 130% !important;
+  /* or 44px */
+}
+
+.mpa-h3-headline {
+  font-family: Inter !important;
+  font-style: normal !important;
+  font-weight: 800 !important;
+  font-size: 24px !important;
+  line-height: 38px !important;
+  /* identical to box height, or 158% */
+}
+
+.mpa-h4-headline {
+  font-family: Inter !important;
+  font-style: normal !important;
+  font-weight: 800 !important;
+  font-size: 20px !important;
+  line-height: 28px !important;
+  /* identical to box height, or 140% */
+}
+
+.mpa-h5-headline {
+  font-family: Inter !important;
+  font-style: normal !important;
+  font-weight: bold !important;
+  font-size: 16px !important;
+  line-height: 19px !important;
+}
+
+.mpa-main-bold-uppercase {
+  font-family: Inter !important;
+  font-style: normal !important;
+  font-weight: bold !important;
+  font-size: 16px !important;
+  line-height: 24px !important;
+  /* identical to box height, or 150% */
+  letter-spacing: 1px !important;
+  text-transform: uppercase !important;
+}
+
+.mpa-main-bold {
+  font-family: Inter !important;
+  font-style: normal !important;
+  font-weight: bold !important;
+  font-size: 16px !important;
+  line-height: 24px !important;
+  /* identical to box height, or 150% */
+}
+
+.mpa-main-reguler {
+  font-family: Inter !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-size: 16px !important;
+  line-height: 24px !important;
+  /* identical to box height, or 150% */
+}
+
+.mpa-menu {
+  font-family: Inter !important;
+  font-style: normal !important;
+  font-weight: 600 !important;
+  font-size: 14px !important;
+  line-height: 20px !important;
+  /* identical to box height, or 143% */
+  text-transform: uppercase !important;
+}
+
+.mpa-additional {
+  font-family: Inter !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-size: 12px !important;
+  line-height: 15px !important;
+  /* identical to box height */
+}
+
+.mpa-small-bold {
+  font-family: Inter !important;
+  font-style: normal !important;
+  font-weight: bold !important;
+  font-size: 12px !important;
+  line-height: 18px !important;
+  /* identical to box height, or 150% */
+}
+
+.mpa-small {
+  font-family: Inter !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-size: 12px !important;
+  line-height: 18px !important;
+  /* identical to box height, or 150% */
+}
+
+.mpa-mobile-h1-bold {
+  font-family: Inter !important;
+  font-style: normal !important;
+  font-weight: bold !important;
+  font-size: 42px !important;
+  line-height: 51px !important;
+  /* identical to box height */
+  text-transform: capitalize !important;
+}
+
+.mpa-mobile-h1 {
+  font-family: Inter !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-size: 42px !important;
+  line-height: 51px !important;
+  /* identical to box height */
+  text-transform: capitalize !important;
+}
+
+.mpa-mobile-subtitle-bold {
+  font-family: Inter !important;
+  font-style: normal !important;
+  font-weight: bold !important;
+  font-size: 18px !important;
+  line-height: 28px !important;
+  /* identical to box height, or 156% */
+}
+
+.mpa-mobile-subtitle {
+  font-family: Inter !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-size: 18px !important;
+  line-height: 28px !important;
+  /* identical to box height, or 156% */
+}
+
+.mpa-mobile-h2-headline {
+  font-family: Inter !important;
+  font-style: normal !important;
+  font-weight: bold !important;
+  font-size: 28px !important;
+  line-height: 130% !important;
+  /* or 36px */
+}
+
+.mpa-mobile-h3-headline {
+  font-family: Inter !important;
+  font-style: normal !important;
+  font-weight: 800 !important;
+  font-size: 22px !important;
+  line-height: 34px !important;
+  /* identical to box height, or 155% */
+}
+
+.mpa-mobile-h4-headline {
+  font-family: Inter !important;
+  font-style: normal !important;
+  font-weight: 800 !important;
+  font-size: 20px !important;
+  line-height: 28px !important;
+  /* identical to box height, or 140% */
+}
+
+.mpa-mobile-h5-headline {
+  font-family: Inter !important;
+  font-style: normal !important;
+  font-weight: bold !important;
+  font-size: 16px !important;
+  line-height: 19px !important;
+}
+
+.mpa-mobile-main-bold-uppercase {
+  font-family: Inter !important;
+  font-style: normal !important;
+  font-weight: bold !important;
+  font-size: 14px !important;
+  line-height: 20px !important;
+  /* identical to box height, or 143% */
+  letter-spacing: 1px !important;
+  text-transform: uppercase !important;
+}
+
+.mpa-mobile-main-bold {
+  font-family: Inter !important;
+  font-style: normal !important;
+  font-weight: bold !important;
+  font-size: 14px !important;
+  line-height: 20px !important;
+  /* identical to box height, or 143% */
+}
+
+.mpa-mobile-main {
+  font-family: Inter !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-size: 14px !important;
+  line-height: 20px !important;
+  /* identical to box height, or 143% */
+}
+
+.mpa-mobile-menu {
+  font-family: Inter !important;
+  font-style: normal !important;
+  font-weight: 600 !important;
+  font-size: 14px !important;
+  line-height: 20px !important;
+  /* identical to box height, or 143% */
+  text-transform: uppercase !important;
+}
+
+.mpa-mobile-additional {
+  font-family: Inter !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-size: 12px !important;
+  line-height: 15px !important;
+  /* identical to box height */
+}
+
+.mpa-mobile-small-bold {
+  font-family: Inter !important;
+  font-style: normal !important;
+  font-weight: bold !important;
+  font-size: 12px !important;
+  line-height: 18px !important;
+  /* identical to box height, or 150% */
+}
+
+.mpa-mobile-small {
+  font-family: Inter !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-size: 12px !important;
+  line-height: 18px !important;
+  /* identical to box height, or 150% */
+}
+
+.mpa-btn {
+  width: 180px !important;
+  height: 48px !important;
+  padding: 15px 60px !important;
+  text-align: center !important;
+  border-radius: 8px !important;
+  font-size: 16px !important;
+  line-height: 18px !important;
+}
+
+.custom-button {
+  width: fit-content !important;
+  padding: 10px 20px 10px 20px !important;
+  border-radius: 5px;
+  background-color: #8d191c !important;
+  color: #f8f8ff;
+}
+.custom-button:hover {
+  background-color: #711416 !important;
+  color: #f8f8ff;
+}
+
+.mpa-btn-primary {
+  background-color: #8d191c !important;
+  color: #f8f8ff;
+}
+
+.mpa-btn-primary:hover {
+  background-color: #711416 !important;
+  color: #f8f8ff;
+}
+
+.mpa-btn-primary:disabled {
+  background-color: #dcb8b9 !important;
+  color: #f8f8ff;
+}
+
+.mpa-btn-secondary {
+  background-color: #f9f9f9 !important;
+  color: #8d191c;
+  border: none;
+}
+
+.mpa-btn-secondary:hover {
+  background-color: #bbbbbb !important;
+  color: #8d191c;
+}
+
+.mpa-btn-secondary:disabled {
+  background-color: #f9f9f9;
+  color: #8d191c;
+}
+
+.mpa-btn-alternate {
+  background-color: #f8f8ff !important;
+  color: #8d191c;
+}
+
+.mpa-btn-alternatet {
+  background-color: #f9f9f9 !important;
+  color: #8d191c !important;
+  font-family: Inter !important;
+  font-style: Medium !important;
+  font-size: 16px !important;
+  border: none !important;
+}
+
+.mpa-login {
+  width: 63px !important;
+  height: 28px !important;
+  border-radius: 8px !important;
+  background-color: #8d191c !important;
+  text-align: center !important;
+}
+
+.mpa-submit {
+  width: 209px !important;
+  height: 28px !important;
+  border-radius: 8px !important;
+  text-align: center !important;
+  background-color: #8d191c !important;
+}
+
+.mba-image-iniline {
+  width: 24px !important;
+  height: 24px !important;
+  border-radius: 100px !important;
+}
+
+.mba-image-small {
+  width: 32px !important;
+  height: 32px !important;
+  border-radius: 100px !important;
+}
+
+.mba-image-medium {
+  width: 48px !important;
+  height: 48px !important;
+  border-radius: 100px !important;
+}
+
+.mba-image-large {
+  width: 96px !important;
+  height: 96px !important;
+  border-radius: 100px !important;
+}
+
+.mba-form {
+  width: 420px !important;
+  height: 38px !important;
+  border-radius: 4px;
+  background-color: #f8f8ff !important;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  border: 1px solid #ced4da;
+}
+
+.mba-form-1 {
+  width: 420px !important;
+  height: 38px !important;
+  background-color: #f8f8ff !important;
+  border: 1px solid #ced4da !important;
+  -webkit-box-sizing: border-box !important;
+  box-sizing: border-box !important;
+  border-radius: 4px !important;
+}
+
+.mba-form-1:focus {
+  border: 1px solid #dcb8b9 !important;
+}
+
+.mba-form-1.is_invalid {
+  border: 1px solid #8d191c !important;
+}
+
+.mba-form-1.is_success {
+  border: 1px solid #2e8b57 !important;
+}
+
+.mba-form-1.is_primary {
+  border: 1px solid #0000cd o !important;
+}
